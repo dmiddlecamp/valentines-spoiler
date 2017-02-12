@@ -1,5 +1,5 @@
 {
-	"eventName": "sns_test",
+	"eventName": "trigger_spoil_email",
 	"url": "http://sns.us-east-1.amazonaws.com/",
 	"requestType": "POST",
 	"form": {
