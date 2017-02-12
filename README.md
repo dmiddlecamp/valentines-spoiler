@@ -31,10 +31,10 @@ Lambda Environment variables
 
 Make sure you set these environment variables on your lambda function or it won't work!
 
-email_address: "your_email_address"
-email_password: "your_email_password"
-order_email_address: "particle@spoil.co"
-smtp_host_address: "smtp.your_server.com"
+ * email_address: "your_email_address"
+ * email_password: "your_email_password"
+ * order_email_address: "particle@spoil.co"
+ * smtp_host_address: "smtp.your_server.com"
 
 
 Special Thanks To:
