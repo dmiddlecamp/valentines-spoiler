@@ -1,0 +1,14 @@
+{
+	"eventName": "sns_test",
+	"url": "http://sns.us-east-1.amazonaws.com/",
+	"requestType": "POST",
+	"form": {
+		"TopicArn": "arn:aws:sns:us-east-1:123456789012:spoil-topic",
+		"Action": "Publish",
+		"Message": "{{SPARK_EVENT_VALUE}}::{{SPARK_CORE_ID}}"
+	},
+	"amazon_token": {
+		"accessKeyId": "abcdefghiijklmnop",
+		"secretAccessKey": "+abcdefghijklmnopabcdefghijklmnopabcdefghijklmnop"
+	}
+}
