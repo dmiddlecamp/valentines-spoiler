@@ -22,7 +22,7 @@ var email = {
 			"**Begin Email Order for Spoil** \n" +
 
 			"recipient_name: __RECIPIENT_NAME__,  \n" +
-			"recipient_phone: __RECIPIENT_PHONE_  \n""
+			"recipient_phone: __RECIPIENT_PHONE_  \n" +
 			"recipient_address1: __ADDRESS_LINE1__  \n" +
 			"recipient_address2: __ADDRESS_LINE2__  \n" +
 			"recipient_address3: __ADDRESS_LINE3__  \n" +
