@@ -1,7 +1,7 @@
 var when = require('when');
 var lib = require('./lib.js');
 
-exports.handler = (event, context, callback) => {
+exports.handler = function(event, context, callback) {
 	when(lib.send_the_email())
 		.then(function(info) {
 			console.log("The result was ", info);
@@ -11,5 +11,3 @@ exports.handler = (event, context, callback) => {
 			callback(err, "Oh no!");
 		});
 };
-
-
