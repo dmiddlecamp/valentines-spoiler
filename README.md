@@ -48,6 +48,12 @@ Open up your [AWS SNS dashboard](https://console.aws.amazon.com/sns/v2/home), an
 ![Setting up the SNS Topic](images/Screen Shot 2017-02-11 at 7.14.55 PM)
 
 
+Configuring the Lambda Function
+===
+
+[Read the guide on getting that configured here](lambda_emailer/README.md)
+
+
 Setting up the Lambda Function
 ===
 
@@ -87,6 +93,8 @@ Setting up the Webhook to trigger the SNS Topic
 
 Testing!
 ===
+
+
 
 Making it live!
 ===
