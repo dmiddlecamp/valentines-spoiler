@@ -4,7 +4,7 @@ Deploying up the Lambda Function
 
 Next lets create a [AWS Lambda function](https://console.aws.amazon.com/lambda/home), triggered off that new SNS Topic: 
 
-![Setting up the Lambda Function](images/Screen Shot 2017-02-11 at 7.16.14 PM.png)
+![Setting up the Lambda Function](../../../images/Screen Shot 2017-02-11 at 7.16.14 PM.png)
 
 
 setting environment variables
