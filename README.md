@@ -1,45 +1,26 @@
-Backstory
+Spoil your Valentine with [Particle](https://www.particle.io) + [Spoil](https://cspoil.co) + AWS
 ===
 
-Preparing the Heart!
+Instead of giving a box of chocolates this Valentines Day, keep the chocolates.  Lets give a smart self-gifting box instead!
+
+Overview
 ===
 
-[Checkout the steps for building the heart here!](build/README.md)
+We built a chocolate heart that gives endless gifts instead of candy!  A Particle Electron sends an order to 
+Spoil.co on your behalf when the button is pressed!  We use Amazon SNS, and Lambda to catch our events and send the email.
+  Lets get started!
+
+
+Here's a guide on how we put it together!
+
+ * [How we built the heart hardware](build/README.md)
+
+ * [Setting up the SNS Topic to feed into Lambda](build/amazon/sns/README.md)
   
-Setting up the SNS Topic
-===
+ * [How to configure this lambda function to send email](lambda_emailer/README.md)
 
-[Setting up the SNS Topic](build/amazon/sns/README.md)
-  
+ * [How to deploy the lambda function](build/amazon/lambda/README.md)
 
-Configuring the Lambda Function
-===
-
-[Read the guide on getting that configured here](lambda_emailer/README.md)
-
-
-Deploying up the Lambda Function
-===
-
-[Read the guide on deploying the lambda function here](build/amazon/lambda/README.md)
-
-
-Create an IAM Role to Publish to the Topic
-===
-
-[checkout the notes on adding an IAM role here](build/amazon/iam/README.md)
-
-
-Setting up the Webhook to trigger the SNS Topic
-===
-
-[Checkout the Webhook guide here](sns-webhook/README.md)
-
-
-Testing!
-===
-
-
-
-Making it live!
-===
+ * Setting up the webhook!
+    * [Use IAM to get tokens for your webhook](build/amazon/iam/README.md)
+    * [Setup your Particle Webhook to catch events from your heart](sns-webhook/README.md)
