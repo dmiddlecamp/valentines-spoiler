@@ -8,12 +8,12 @@ Next lets create a [AWS Lambda function](https://console.aws.amazon.com/lambda/h
 
 
 setting environment variables
-![Set your Environment Variables](images/Screen Shot 2017-02-12 at 5.13.01 PM.png)
+![Set your Environment Variables](../../../images/Screen Shot 2017-02-12 at 5.13.01 PM.png)
 
 
 lets increase the timeout a bit as well, just in case the server is slow:
-![Increasing Timeout](images/Screen Shot 2017-02-12 at 5.15.05 PM.png)
+![Increasing Timeout](../../../images/Screen Shot 2017-02-12 at 5.15.05 PM.png)
 
 
 don't forget to give the role a name
-![Setting the role](images/Screen Shot 2017-02-12 at 5.15.22 PM.png)
+![Setting the role](../../../images/Screen Shot 2017-02-12 at 5.15.22 PM.png)
