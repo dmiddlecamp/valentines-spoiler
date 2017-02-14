@@ -35,4 +35,4 @@ note: The purple D4 wire should be connected to D3 so we can PWM it.
 ![Wiring](../images/IMG_8391.png)
 
 Step 7.) Grab this code and flash it to your electron in the Particle Online IDE! 
-https://github.com/dmiddlecamp/lambda-email/tree/master/heart_firmware
+https://github.com/dmiddlecamp/valentines-spoiler/tree/master/heart_firmware

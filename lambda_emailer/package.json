@@ -1,6 +1,6 @@
 {
-	"name": "lambda-email",
-	"version": "0.0.1",
+	"name": "valentines-emailer",
+	"version": "0.0.2",
 	"author": "David Middlecamp",
 	"dependencies": {
 		"nodemailer": "^2.4.1",
