@@ -1,7 +1,10 @@
-Spoil your Valentine with [Particle](https://www.particle.io) + [Spoil](https://cspoil.co) + AWS
+Spoil your Valentine with [Particle](https://www.particle.io) + [Spoil](https://spoil.co) + [AWS](https://aws.amazon.com/)
 ===
 
 Instead of giving a box of chocolates this Valentines Day, keep the chocolates.  Lets give a smart self-gifting box instead!
+
+![Setting up the SNS Topic](images/IMG_8382_small.png)
+
 
 Overview
 ===
